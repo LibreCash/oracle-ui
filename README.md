@@ -1,4 +1,3 @@
-![LibreLogo](http://librebank.com/img/logos/alarm/logo-alarm.svg)
 # LibreBank Oracle Web UI
 
 Control LibreBank Oracle nodes.
