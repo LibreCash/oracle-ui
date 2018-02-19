@@ -1,0 +1,113 @@
+.help-block {
+  margin: 0;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #000;
+  font-color: #FEBF00;
+  color: #FEBF00;
+}
+
+.App-header h1 {
+  font-color: #FEBF00;
+  color: #FEBF00;
+}
+
+.App-title {
+  font-size: 1.5em;
+  margin: 0;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+.MasterNode {
+  border: 0px solid gray;
+}
+
+.MasterNode-header {
+  width: 100%;
+  overflow: auto;
+}
+
+.MasterNode-label0 {
+  font-size: 2.0em;
+  float: left;
+}
+
+.MasterNode-connected {
+  float: left;
+  margin: 10px;
+}
+
+.MasterNode-label1 {
+  display: block;
+}
+
+
+
+.LightNode {
+  border: 0px solid gray;
+}
+
+.LightNode-label0 {
+  float: left;
+  font-size: 2.0em;
+}
+.LightNode-connected {
+  float: left;
+  margin: 10px;
+}
+
+.LightNode-label1 {
+  display: block;
+}
+
+
+.ObjectProperty-container {
+  display: table;
+  border-collapse: collapse;
+}
+
+.ObjectProperty-item {
+  border: 1px solid #ddd;
+  text-align: left;
+  display: table-row;
+}
+
+.ObjectProperty-name {
+  display: table-cell;
+}
+
+.ObjectProperty-value {
+  display: table-cell;
+}
+
+
+.NotificationTable {
+  height: 300px;
+  overflow-y:auto;
+  width: 100%;
+  display:block;
+}
+
+.react-stockchart {
+  position: relative !important; /* Chart svg bugfix */
+}

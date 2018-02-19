@@ -18,6 +18,13 @@ git clone https://github.com/LibreCash/oracle-ui
 cd oracle-ui
 npm install
 ```
+Run UI
+```
+npm start
+```
+
+Url: http://localhost:3000/
+
 ## Contiributing
 If you want to help us get better - create issue and PR.
 

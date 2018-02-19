@@ -1,0 +1,28 @@
+Setup:
+
+// MasternodePropsEdit
+//	- name
+//	- ip
+//	- secret
+//	- encryption password
+//  - button Add
+//
+// MastrnodeLoginView
+//	- button remove node
+// 	- MasternodesList
+//
+// MasternodesList
+//		- MasternodeListItem
+//
+// MasternodeListItem (internal)
+//  - checkbox select
+//	- label name
+//	- label ip
+//	- input password
+//	- button Connect
+//
+// MasternodeControl
+// - button disconnect/logout
+//
+// Setup
+// - localstorage
